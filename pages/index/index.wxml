@@ -1,0 +1,15 @@
+<!-- index-view -->
+<view>
+  <page-meta>
+  <navigation-bar
+    title="{{nbTitle}}"
+    loading="{{nbLoading}}"
+    front-color="{{nbFrontColor}}"
+    background-color="{{nbBackgroundColor}}"
+    color-animation-duration="2000"
+    color-animation-timing-func="easeIn"
+  />
+</page-meta>
+  <text>index</text>
+  <!-- <map bindmarkertap="markertap" longitude="广州经度" latitude="广州纬度"></map> -->
+</view>
