@@ -1,0 +1,32 @@
+/* pages/home/home.wxss */
+/* 轮播图宽度 */
+.pic {
+  width: 100%;
+}
+
+/* form表单样式 */
+.form view{
+  margin-top: 20rpx;
+  padding-left: 20rpx;
+display: flex;
+}
+.form view text {
+  width: 100rpx;
+  padding: 25rpx 0;
+}
+input {
+  width: 80vw;
+  padding: 25rpx 0;
+  border-bottom: 1rpx solid #aaa;
+}
+.btn {
+  margin-top: 20rpx;
+}
+
+/* tips区域 */
+.tips{
+  margin-top: 25rpx;
+  padding-left: 40rpx;
+  color: #555;
+  text-align: center;
+}

@@ -1,11 +1,31 @@
-// pages/user/user.js
+// pages/home/home.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+      pic:[
+      {url:"http://www.dmoe.cc/random.php"},
+      {url:"http://api.mtyqx.cn/api/random.php"},
+      {url:"https://www.dmoe.cc/random.php"},
+      ],
+      inputValue:{
+        card:"",
+        password:""
+      }
+  },
+  // sure(e){
+  //   console.log(e);
+  //   console.log();
+  //   console.log(this.data.inputValue);
+  // },
+  formSubmit(e){
+    // 拿到表单的值
+    this.data.inputValue.card = e.detail.value.card;
+    this.data.inputValue.password = e.detail.value.pwd;
+    console.log(e);
+    console.log(this.data.inputValue);
   },
 
   /**

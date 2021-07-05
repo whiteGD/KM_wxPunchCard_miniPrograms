@@ -1,34 +1,25 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/user/user"
+    "pages/home/home",
+    "pages/index/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
+    "navigationBarBackgroundColor": "#fac6bd",
+    "navigationBarTitleText": "open door FBI",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
-    "color": "#a9b7b7",
-    "selectedColor": "#d4237a",
-    "borderStyle": "white",
+    "color": "#999999",
+    "borderStyle": "black",
+    "selectedColor":"#d4237a",
+    "backgroundColor":"#fac6bd",
     "list": [
-      {
-        "iconPath": "images/tabbar/index_icon.png",
-        "selectedIconPath": "images/tabbar/index_icon_selection.png",
-        "pagePath": "pages/index/index",
-        "text": "首页"
-      },
-      {
-        "iconPath": "images/tabbar/user_icon.png",
-        "selectedIconPath": "images/tabbar/user_icon_selection.png",
-        "pagePath": "pages/user/user",
-        "text": "我的"
-      }
+      {"pagePath": "pages/home/home","text": "首页","selectedIconPath": "images/tabbar/index_icon_selection.png","iconPath":"images/tabbar/index_icon.png"},
+      {"pagePath": "pages/index/index","text": "作者的话","selectedIconPath": "images/tabbar/user_icon_selection.png","iconPath":"images/tabbar/user_icon.png"}
+     
     ]
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json",
-  "usingComponents": {}
+  "sitemapLocation": "sitemap.json"
 }

@@ -1,15 +1,5 @@
-<!-- index-view -->
-<view>
-  <page-meta>
-  <navigation-bar
-    title="{{nbTitle}}"
-    loading="{{nbLoading}}"
-    front-color="{{nbFrontColor}}"
-    background-color="{{nbBackgroundColor}}"
-    color-animation-duration="2000"
-    color-animation-timing-func="easeIn"
-  />
-</page-meta>
-  <text>index</text>
-  <!-- <map bindmarkertap="markertap" longitude="广州经度" latitude="广州纬度"></map> -->
-</view>
+<!--pages/index/index.wxml-->
+<view><text>做小程序真的太简单了</text></view>
+<view><text>连洗头水都不用买</text></view>
+<view><text>理发店都不用去</text></view>
+<view><text>真是太爽了！</text></view>

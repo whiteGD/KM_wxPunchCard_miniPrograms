@@ -1,7 +1,0 @@
-<!--pages/user/user.wxml-->
-<view>
-  <text>
-    用户数据
-  </text>
-</view>
-<text>pages/user/user.wxml</text>
